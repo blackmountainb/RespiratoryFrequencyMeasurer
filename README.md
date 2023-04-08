@@ -17,13 +17,32 @@ Create a low cost respiratory frequency rate measurer with 3D print mask, Arduin
 
 ## How to:
 1 - Download and print one of the mask body files, from: https://www.thingiverse.com/thing:4225667
+
 For our tests, we printed a Mask Body Wide M size as we were not sure of how big the masks would be, but just turned out a good size.
+
 2 - Download and print the Adaptor.stl file above - this one we designed considering the Mask Body Wide M size measures
+
+It should be like this - you can attach to either nose or mouth level, but they will have different results for breath measurement, which is the expected behavior and the code is adapted for it as well but you will need to declare where is the source of breath: 
+<div>
+  <img src="https://github.com/blackmountainb/RespiratoryFrequencyMeasurer/blob/main/Images/suporte.png" alt="Adaptor image" width="300"/>&nbsp;
+</div>
+
 3 - Connect Arduino as Image below: 
+
+<div>
+  <img src="https://github.com/blackmountainb/RespiratoryFrequencyMeasurer/blob/main/Images/montagem.jpeg" alt="Adaptor image" width="300"/>&nbsp;
+</div>
 
 On our work, we used a solder and a plug adaptor to maintain the sensor attached to the mask adaptor, as seen below:
 
-4 - Download ArduSpreadSheet, from https://circuitjournal.com/arduino-serial-to-spreadsheet - this is a library that will generate the csv file with the information for Temperature detection from the sensor
+<div>
+  <img src="https://github.com/blackmountainb/RespiratoryFrequencyMeasurer/blob/main/Images/mask.jpeg" alt="Adaptor image" width="300"/>&nbsp;
+</div>
+
+4 - Download and setup ArduSpreadSheet, from https://circuitjournal.com/arduino-serial-to-spreadsheet - this is a library that will generate the csv file with the information for Temperature detection from the sensor
+
 5 - Execute Arduino code and collect csv file
+
 6 - Chose csv collected on code export_csv_code.py
+
 7 - Or generate and plot data in real time with real_time.py code
