@@ -1,0 +1,5 @@
+matplotlib==3.6.3
+pandas==2.0.0
+protobuf==4.22.1
+pyserial==3.5
+scipy==1.10.1
