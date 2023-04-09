@@ -44,5 +44,7 @@ On our work, we used a solder and a plug adaptor to maintain the sensor attached
 5.1 - Execute Arduino code and collect csv file
 
 5.2 - Chose csv collected on code export_csv_code.py
+
 OR 
+
 6. - Generate and plot data in real time with real_time.py code
